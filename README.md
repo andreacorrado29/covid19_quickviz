@@ -2,7 +2,7 @@
 
 This project has been built for personal usage to provide robustness against the click-bait news we read every single day.
 
-Within this project we automate the covid-19 data download by a script. Moreover, we produce a quick visualisation of the annual trend by superimposing a non parametric fit according to a span which regulates how local the estimation is. All the results are saved into the `figures` folder.
+Within this project we automate the covid-19 data download by a script. Moreover, we produce a quick visualisation of the annual trend by superimposing a non parametric fit according to a span which regulates how local the estimation is. All the results are saved into the `figures` folder with the format `<ISO_CODE>_<VARIABLE>_<DATE>.jpeg`
 
 ## Analysis settings
 The file `settings.R` contains the parameters you may with to change. In particular:
